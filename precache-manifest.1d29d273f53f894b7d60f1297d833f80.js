@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db1ea1e2c48f19d6f3497350eec3b5ae",
+    "revision": "fba6b58393634191ae379fbf326211e9",
     "url": "/object-mds-docs/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/object-mds-docs/static/css/8.b9ddd548.chunk.css"
   },
   {
-    "revision": "f99375332dddc82df77f",
+    "revision": "0c8b577cacae543c2e19",
     "url": "/object-mds-docs/static/css/main.b272ed77.chunk.css"
   },
   {
@@ -504,8 +504,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/object-mds-docs/static/js/99.72582ebc.chunk.js"
   },
   {
-    "revision": "f99375332dddc82df77f",
-    "url": "/object-mds-docs/static/js/main.20a4190f.chunk.js"
+    "revision": "0c8b577cacae543c2e19",
+    "url": "/object-mds-docs/static/js/main.66b932db.chunk.js"
   },
   {
     "revision": "d4bf8b42c08fd63ba124",
