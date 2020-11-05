@@ -2,12 +2,14 @@ import React from 'react';
 
 const Header = () => {
 
-    let handleGetStarted = () => {
+  // Scroll to why section
+  const handleWhy = () => {
+    document.getElementById('why').scrollIntoView({behavior: 'smooth'})
+  }
+  
+    // Scroll to installation section
+    const handleGetStarted = () => {
       document.getElementById('installation').scrollIntoView({behavior: 'smooth'})
-    }
-
-    let handleWhy = () => {
-      document.getElementById('why').scrollIntoView({behavior: 'smooth'})
     }
 
 

@@ -10,7 +10,7 @@ const Why = () => {
                 </div>
                 <div className="text-gray-700 mt-12 sm:w-7/12 font-mono">
                     <p>
-                        object-mds is a simple javaScrip package or tool has some amazing features.
+                        object-mds is a simple javaScript package or tool has some amazing features.
                         this package created to help javaScript developers by using the object methods,
                         like Sort method and, find and, limit and, skip.
                     </p>

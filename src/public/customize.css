@@ -1,4 +1,4 @@
-.github-install-container::-webkit-scrollbar {
+.scroll-style::-webkit-scrollbar {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -6,6 +6,10 @@
     background-color: #DDD;
 }
 
-.github-install-container::-webkit-scrollbar-thumb {
+.scroll-style::-webkit-scrollbar-thumb {
     background-color: rgb(156, 156, 156);
+}
+
+.active {
+    color: #5a67d8;
 }

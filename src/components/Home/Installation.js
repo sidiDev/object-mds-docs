@@ -22,7 +22,7 @@ const Installation = () => {
                             <span className="bg-gray-300 block w-8 h-8 rounded-full flex justify-center items-center">2</span>
                             <p className="text-gray-800 ml-3 font-mono">Install object-mds via github</p>
                         </div>
-                        <div className="bg-gray-800 p-3 text-white mt-4 rounded font-mono overflow-x-scroll sm:overflow-auto github-install-container">
+                        <div className="bg-gray-800 p-3 text-white mt-4 rounded font-mono overflow-x-scroll sm:overflow-auto scroll-style">
                             <span className="block" style={{width: '500px'}}>git clone https://github.com/sidiDev/Object-Mds.git</span>
                         </div>
                     </div>

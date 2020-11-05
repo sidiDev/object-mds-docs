@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaCode } from 'react-icons/fa'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -34,11 +34,11 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="hidden md:block md:ml-10 md:pr-4">
-                <Link to="/docs/find" className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Find</Link>
-                <Link to="/docs/sort" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Sort</Link>
-                <Link to="/docs/limit" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Limit</Link>
-                <Link to="/docs/reverse" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Reverse</Link>
-                <Link to="/docs/skip" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Skip</Link>
+                <NavLink to="/docs/find" className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Find</NavLink>
+                <NavLink to="/docs/sort" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Sort</NavLink>
+                <NavLink to="/docs/limit" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Limit</NavLink>
+                <NavLink to="/docs/reverse" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Reverse</NavLink>
+                <NavLink to="/docs/skip" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Skip</NavLink>
                 <a href="https://github.com/sidiDev/Object-Mds" target="_blank" className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Github</a>
             </div>
             </nav>
@@ -66,11 +66,11 @@ const Navbar = () => {
                 </div>
                 </div>
                 <div className="py-3 px-4 sm:px-6 lg:px-8">
-                    <Link to="/docs/find" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-100 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Find</Link>
-                    <Link to="/docs/Sort" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Sort</Link>
-                    <Link to="/docs/Limit" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Limit</Link>
-                    <Link to="/docs/Reverse" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Reverse</Link>
-                    <Link to="/docs/skip" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Skip</Link>
+                    <NavLink to="/docs/find" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-100 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Find</NavLink>
+                    <NavLink to="/docs/Sort" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Sort</NavLink>
+                    <NavLink to="/docs/Limit" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Limit</NavLink>
+                    <NavLink to="/docs/Reverse" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Reverse</NavLink>
+                    <NavLink to="/docs/skip" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Skip</NavLink>
                 </div>
                 <div>
                 <a href="https://github.com/sidiDev/Object-Mds" target="_blank" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-100 hover:bg-gray-200 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>
