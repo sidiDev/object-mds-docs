@@ -1,8 +1,17 @@
 import React from 'react';
+import CodeMirror from '@uiw/react-codemirror';
+import 'codemirror/keymap/sublime';
+import 'codemirror/theme/monokai.css';
 
 const Installation = () => {
+
+    const code = `
+// Init the package
+const ObjectMds = require('object-mds')
+
+const initObjectMds = new ObjectMds()`
     return (
-        <section className="mt-16" id="installation">
+        <section className="mt-16 mb-5" id="installation">
             <div className="px-4 sm:px-6 lg:px-8">
                 <h3 className="text-2xl inline-block border-indigo-600 text-gray-800">Installation</h3>
                 <p className="text-gray-700">Quick start guide for installing object-mds package.</p>
@@ -26,8 +35,21 @@ const Installation = () => {
                             <span className="block" style={{width: '500px'}}>git clone https://github.com/sidiDev/Object-Mds.git</span>
                         </div>
                     </div>
-                    <br />
-                    <br />
+                </div>
+                <div className="mt-5">
+                    <h3 className="text-2xl inline-block border-indigo-600 text-gray-800">Initialize the project</h3>
+                    <div className="mt-3">
+                        <CodeMirror
+                                value={code}
+                                options={{
+                                    theme: 'monokai',
+                                    keymap: 'sublim',
+                                    mode: 'jsx',
+                                    readOnly: true
+                                }}
+                            />
+                    </div>
+
                 </div>
             </div>
         </section>

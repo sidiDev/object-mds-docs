@@ -23,7 +23,7 @@ const myObject = [
 ]
 
 // Add the array of objects
-const initObjectMds = new ObjectMds(myObject);
+const initObjectMds = new ObjectMds(myObject)
 
 // Reverse array of objects
 initObjectMds.reverse()

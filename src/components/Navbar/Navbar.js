@@ -39,7 +39,7 @@ const Navbar = () => {
                 <NavLink to="/docs/limit" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Limit</NavLink>
                 <NavLink to="/docs/reverse" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Reverse</NavLink>
                 <NavLink to="/docs/skip" className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Skip</NavLink>
-                <a href="https://github.com/sidiDev/Object-Mds" target="_blank" className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Github</a>
+                <a href="mailto:sididev3@gmail.com" target="_blank" className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Contact us</a>
             </div>
             </nav>
         </div>
@@ -73,8 +73,8 @@ const Navbar = () => {
                     <NavLink to="/docs/skip" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>Skip</NavLink>
                 </div>
                 <div>
-                <a href="https://github.com/sidiDev/Object-Mds" target="_blank" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-100 hover:bg-gray-200 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>
-                    Github
+                <a href="mailto:sididev3@gmail.com" target="_blank" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-100 hover:bg-gray-200 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out" role="menuitem" onClick={() => setIsOpen(false)}>
+                    Contact us
                 </a>
                 </div>
             </div>

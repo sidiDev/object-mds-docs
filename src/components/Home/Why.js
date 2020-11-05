@@ -18,7 +18,7 @@ const Why = () => {
                     <p>
                         Time is the money if you gain it you win the money so this package help you to finish from your work quickly
                         and you don't need to re-build script to Sort for example or find, so using object-mds you can do all this things,
-                        you need just one second to intall this package.
+                        you need just one second to install this package.
                     </p>
                 </div>
             </div>

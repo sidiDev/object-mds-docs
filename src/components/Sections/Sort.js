@@ -23,7 +23,7 @@ const myObject = [
 ]
 
 // Add the array of objects
-const initObjectMds = new ObjectMds(myObject);
+const initObjectMds = new ObjectMds(myObject)
 
 // Sort object by number and get the biggest numbers to smallest
 initObjectMds.sort('number', -1)
@@ -63,7 +63,7 @@ const myObject = [
 ]
 
 // Add the array of objects
-const initObjectMds = new ObjectMds(myObject);
+const initObjectMds = new ObjectMds(myObject)
 
 // Sort object by number and get the smallest to biggest
 initObjectMds.sort('number', 1)
@@ -94,7 +94,7 @@ console.log(initObjectMds.values())`
                       <p className="text-gray-700 border-l-4 border-gray-400 pl-2">
                           This method take 2 argument the first argument is name of the properties and 
                           second argument is the key, there are 2 key the first key is <span className="text-indigo-700">(1)</span> number one use to sort numbers from smallest to biggest,
-                          second key is <span className="text-indigo-700">(-1)</span> and use to sort numbers from biggest to smallest
+                          second key is <span className="text-indigo-700">(-1)</span> use to sort numbers from biggest to smallest
                       </p>
                       <p className="text-xl mt-5">Example</p>
                       <p className="text-gray-700 mt-1">Sorting from biggest to smallest</p>

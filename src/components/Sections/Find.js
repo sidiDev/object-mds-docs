@@ -27,7 +27,7 @@ const myObject = [
 ]
 
 // Add the array of objects
-const initObjectMds = new ObjectMds(myObject);
+const initObjectMds = new ObjectMds(myObject)
 
 // First argument take a name of property and second argument take a value
 initObjectMds.find('job','Full Stack')

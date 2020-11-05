@@ -23,7 +23,7 @@ const myObject = [
 ]
 
 // Add the array of objects
-const initObjectMds = new ObjectMds(myObject);
+const initObjectMds = new ObjectMds(myObject)
 
 // Set the number ( Limit ) of objects you want
 initObjectMds.limit(5)
@@ -44,7 +44,7 @@ console.log(initObjectMds.values())`
       <main className="px-4 sm:px-6 lg:px-8 mt-5 mb-5">
           <div>
               <h1 className="text-2xl p-4">Limit method</h1>
-              <p className="text-gray-700 mt-3 p-4">Limit method use to fetch specific number from array of objects</p>
+              <p className="text-gray-700 mt-3 p-4">Limit method use to fetch specific number of array of objects</p>
               <div className="mt-5 bg-white border-gray-400 rounded-t-lg rounded-b-lg">
                   <div className="sm:w-7/12 p-4">
                       <p className="text-gray-700 border-l-4 border-gray-400 pl-2">
