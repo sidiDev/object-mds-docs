@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Navbar />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/object-mds-docs" component={Home} />
         <Route path="/docs/find" component={Find} />
         <Route path="/docs/sort" component={Sort} />
         <Route path="/docs/limit" component={Limit} />

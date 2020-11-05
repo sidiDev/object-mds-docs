@@ -18,7 +18,7 @@ const Navbar = () => {
             <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="/" aria-label="Home" className="flex items-center text-xl">
+                <a href="/object-mds-docs" aria-label="Home" className="flex items-center text-xl">
                     <FaCode className="text-indigo-500 text-2xl"/>
                     <span className="ml-2">Object-Mds</span>
                 </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className="rounded-lg overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
                 <div className="px-4 sm:px-6 lg:px-8 flex items-center justify-between">
                 <div>
-                    <a href="/" aria-label="Home" className="flex items-center text-xl">
+                    <a href="/object-mds-docs" aria-label="Home" className="flex items-center text-xl">
                         <FaCode className="text-indigo-500 text-2xl"/>
                         <span className="ml-2">Object-Mds</span>
                     </a>

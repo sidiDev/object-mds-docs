@@ -16,7 +16,6 @@ const initObjectMds = new ObjectMds()`
                 <h3 className="text-2xl inline-block border-indigo-600 text-gray-800">Installation</h3>
                 <p className="text-gray-700">Quick start guide for installing object-mds package.</p>
                 <div className="mt-5">
-                    <p className="text-gray-700 text-xl">You have to ways for installing object-mds </p>
                     <div className="mt-10">
                         <div className="flex items-center">
                             <span className="bg-gray-300 block w-8 h-8 rounded-full flex justify-center items-center">1</span>
@@ -26,14 +25,9 @@ const initObjectMds = new ObjectMds()`
                             npm install object-mds
                         </div>
                     </div>
-                    <div className="mt-10">
-                        <div className="flex items-center">
-                            <span className="bg-gray-300 block w-8 h-8 rounded-full flex justify-center items-center">2</span>
-                            <p className="text-gray-800 ml-3 font-mono">Install object-mds via github</p>
-                        </div>
-                        <div className="bg-gray-800 p-3 text-white mt-4 rounded font-mono overflow-x-scroll sm:overflow-auto scroll-style">
-                            <span className="block" style={{width: '500px'}}>git clone https://github.com/sidiDev/Object-Mds.git</span>
-                        </div>
+                    <div className="flex items-center mt-4">
+                        <span className="bg-gray-300 block w-8 h-8 rounded-full flex justify-center items-center">2</span>
+                        <p className="text-gray-800 ml-3 font-mono">Install object-mds via github</p>
                     </div>
                 </div>
                 <div className="mt-5">
