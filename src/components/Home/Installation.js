@@ -27,7 +27,7 @@ const initObjectMds = new ObjectMds()`
                     </div>
                     <div className="flex items-center mt-4">
                         <span className="bg-gray-300 block w-8 h-8 rounded-full flex justify-center items-center">2</span>
-                        <p className="text-gray-800 ml-3 font-mono">Install object-mds via github</p>
+                        <p className="text-gray-800 ml-3 font-mono">Initialize your project by this steps</p>
                     </div>
                 </div>
                 <div className="mt-5">
